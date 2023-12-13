@@ -2,22 +2,32 @@ body {
     width:100vw;
     position: absolute;
    background-image: url(https://images.rawpixel.com/image_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvdjU0NmJhdGNoMy1teW50LTM0LWJhZGdld2F0ZXJjb2xvcl8xLmpwZw.jpg);
-}
-
-.pp {
-  position: absolute;
-  left: 75px;
-  width: 100px;
-  height: auto;
-  border-radius: 50px;
-  z-index: 1;
-}
-body {
-    font-family: "Comfortaa", sans-serif;
+  font-family: "Comfortaa", sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #fcfcfc;
+  background-color: #fcfcfc;    
 }
+
+@media only screen and (min-width:700px){
+  .pp {
+    position: absolute;
+    left: 75px;
+    width: 100px;
+    height: auto;
+    border-radius: 50px;
+    z-index: 1;
+  }
+  
+}
+ @media only screen and (max-width:700px){
+  .pp {
+    width: 100px;
+    height: auto;
+    border-radius: 50px;
+    z-index: 1;
+  }
+  
+} 
 
 header {
   text-align: center;
